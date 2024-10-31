@@ -8,6 +8,8 @@
 body{
     /* border: 1px solid black; */
     width: min(600px, 80vw);
+    background: rgb(21, 21, 21);
+    color: white;
     margin: auto;
 }
 
@@ -23,7 +25,7 @@ header h1{
 
 header h1 a{
     outline: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
 }
 
 nav{
@@ -46,8 +48,12 @@ nav a:hover{
     border: 5px #eee inset;
 }
 
-a{
+nav a{
     color: black;
+}
+
+a{
+    color: white;
     text-decoration: none;
     outline: #ff0090 1px solid;
 }
