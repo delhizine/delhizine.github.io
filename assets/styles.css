@@ -5,6 +5,10 @@
     font-family: 'IBM Plex Mono','Courier New', Courier, monospace;
 }
 
+html, body{
+    height: 100%;
+}
+
 body{
     /* border: 1px solid black; */
     width: min(600px, 80vw);
@@ -29,33 +33,44 @@ header h1 a{
 }
 
 nav{
-    margin: 30px 0px;
+    margin: 50px 10px;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 nav ul li{
-    display: inline-block;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
     margin-bottom: 20px;
 }
 
-nav a{
-    background: #ddd;
-    padding: 0px 12px;
-    outline: none;
-    border: 5px #eee outset;
-}
-
-nav a:hover{
-    border: 5px #eee inset;
+nav ul li img{
+    position: absolute;
+    width: min(30vw, 80px);
+    top: -30px;
+    z-index: -10;
+    opacity: 50%;
 }
 
 nav a{
-    color: black;
+    background: none;
+    padding: 5px 12px;
+}
+
+nav a:hover img{
+    opacity: 100%;
 }
 
 a{
     color: white;
+    background: #fff4;
     text-decoration: none;
-    outline: #ff0090 1px solid;
+    /* border-bottom: #ff0090 1px solid; */
 }
 
 a:hover{
@@ -76,11 +91,13 @@ a:hover{
 }
 
 main p{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .emphasis{
-    color: #ff0090;
+    /* color: #ff0090; */
+    font-weight: 600;
+    color: #fff8;
     margin-left: 20px;
     margin-bottom: 5px;
 }
@@ -94,6 +111,19 @@ main p{
     100% { transform: rotate(360deg); }
 }
 
+.logochip img{
+    width: min(30vw, 150px);
+    margin-bottom: 20px;
+}
+
+.logochip{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 footer{
-    margin: 100px;
+    margin: 50px;
 }
