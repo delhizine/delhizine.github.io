@@ -7,10 +7,11 @@
 
 body{
     /* border: 1px solid black; */
-    width: min(600px, 80vw);
+    width: min(700px, 80vw);
     background: rgb(21, 21, 21);
     color: white;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 header{
@@ -141,8 +142,13 @@ a.cat-item{
     padding: 5px;
     background: none;
     border: 1px solid grey;
+    width: min(200px, 30vw);
+}
+
+a.cat-item:hover{
+    background: #fff1;
 }
 
 .cat-img{
-    width: min(200px, 30vw);
+    width: min(190px, calc(30vw - 10px));
 }
