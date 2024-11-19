@@ -127,10 +127,6 @@ main p{
     justify-content: center;
 }
 
-footer{
-    margin: 50px;
-}
-
 .catalogue{
     display: flex;
     flex-wrap: wrap;
@@ -151,4 +147,18 @@ a.cat-item:hover{
 
 .cat-img{
     width: min(190px, calc(30vw - 10px));
+}
+
+
+footer{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p{
+    padding-top: 40px;
+    width: fit-content;
+    opacity: 50%;
 }
