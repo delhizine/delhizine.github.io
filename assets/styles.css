@@ -173,7 +173,7 @@ footer p{
 
 .wall-item{
     /* outline: 1px solid white; */
-    width: min(220px, 80vw);
+    width: min(220px, 100%);
     padding: 5px;
     margin-bottom: 30px;
 }
