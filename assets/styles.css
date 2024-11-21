@@ -162,3 +162,34 @@ footer p{
     width: fit-content;
     opacity: 50%;
 }
+
+.the-wall{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.wall-item{
+    /* outline: 1px solid white; */
+    width: min(220px, 80vw);
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.wall-head{
+    font-size: 24px;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+.wall-quote{
+    opacity: 70%;
+    font-size: small;
+    margin-bottom: 10px;
+}
+.wall-img{
+    width: 80%;
+    border-radius: 50%;
+}
