@@ -94,15 +94,14 @@ a:hover{
 }
 
 main p{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .emphasis{
     /* color: #ff0090; */
     font-weight: 600;
     color: #fff8;
-    margin-left: 20px;
-    margin-bottom: 5px;
+    margin:20px 0 5px 20px;
 }
 
 .spin {
