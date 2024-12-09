@@ -173,8 +173,10 @@ footer p{
 .wall-item{
     /* outline: 1px solid white; */
     width: min(220px, 100%);
-    padding: 5px;
+    padding: 10px;
     margin-bottom: 30px;
+    border:1px solid black;
+    background: rgb(60, 60, 60);
 }
 
 .wall-head{
@@ -186,9 +188,11 @@ footer p{
 .wall-quote{
     opacity: 70%;
     font-size: small;
+    
     margin-bottom: 10px;
 }
+
 .wall-img{
-    width: 80%;
-    border-radius: 50%;
+    width: 100%;
+    border: 1px solid black;
 }
