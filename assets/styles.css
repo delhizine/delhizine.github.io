@@ -44,7 +44,7 @@ header h1 {
     display: inline;
 }
 
-header p{
+header p {
     color: gray;
 }
 
@@ -154,8 +154,8 @@ a:hover {
     position: relative;
 }
 
-header{
-    padding: 10px;
+header {
+    padding: 15px;
     padding-bottom: 20px;
 }
 
@@ -257,9 +257,6 @@ a.cat-item:hover {
     width: 100%;
 }
 
-
-
-
 .the-wall {
     display: flex;
     flex-wrap: wrap;
@@ -295,16 +292,20 @@ a.cat-item:hover {
 }
 
 @media (max-width: 900px) {
-
-    main{
+    main {
         flex-direction: column;
     }
 
-    nav ul li{
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav ul li {
         width: 20%;
     }
 
-    .sidebar{
+    .sidebar {
         width: 100%;
         border-right: none;
         border-bottom: 1px solid grey;
@@ -321,14 +322,15 @@ a.cat-item:hover {
         order: 0;
     }
 
-    .logochip{
+    .logochip {
         margin-top: 20px;
     }
 
     a.cat-item {
         width: calc(33% - 10px);
     }
-    .wall-item{
+
+    .wall-item {
         width: calc(50% - 10px);
     }
 }
