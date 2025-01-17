@@ -328,4 +328,7 @@ a.cat-item:hover {
     a.cat-item {
         width: calc(33% - 10px);
     }
+    .wall-item{
+        width: calc(50% - 10px);
+    }
 }
