@@ -61,7 +61,7 @@ h2 {
 nav ul li {
     display: inline-block;
     /* border: 1px solid white; */
-    width: 130px;
+    width: 100px;
 }
 
 nav ul li a {
@@ -170,7 +170,7 @@ main {
 }
 
 .sidebar {
-    width: min(20vw, 150px);
+    width: min(20vw, 120px);
     padding: 10px;
     display: flex;
     border-right: 1px solid grey;
