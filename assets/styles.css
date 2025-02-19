@@ -305,19 +305,9 @@ a.cat-item:hover {
 }
 
 .calendar-item img {
-    width: calc(100% - 10px);
-    margin: 5px;
+    width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-}
-
-/* Button styling */
-.view-more-btn {
-    border: 1px solid white;
-    background: #fff5;
-    border-radius: 0;
-    color: white;
-    padding: 5px;
 }
 
 .calendar-item:hover {
