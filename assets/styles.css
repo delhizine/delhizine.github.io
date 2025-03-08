@@ -123,6 +123,7 @@ main {
 .content {
     padding: 10px 20px;
     margin: auto;
+    width:min(800px, 100%)
 }
 
 .sidebar {
@@ -147,8 +148,6 @@ main {
     align-items: center;
     justify-content: center;
 }
-
-
 
 
 .content p {
