@@ -123,7 +123,7 @@ main {
 .content {
     padding: 10px 20px;
     margin: auto;
-    width:min(800px, 100%)
+    width: min(800px, 100%)
 }
 
 .sidebar {
@@ -198,10 +198,32 @@ main {
 }
 
 a.cat-item {
+    position: relative;
     padding: 5px;
     background: none;
     border: 1px solid grey;
     width: calc(25% - 10px);
+}
+
+.cat-content {
+    display: none;
+}
+
+.cat-item:hover .cat-content {
+    display: block;
+    position: absolute;
+    background: #eeee;
+    color: #000;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+    width: 100%;
+    line-break:auto;
+    hyphens: auto;
+    height: 100%;
 }
 
 a.cat-item:hover {
@@ -246,7 +268,7 @@ a.cat-item:hover {
     border: 1px solid grey;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     main {
         flex-direction: column;
     }
@@ -290,7 +312,7 @@ a.cat-item:hover {
     }
 }
 
-.calendar-gallery{
+.calendar-gallery {
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
