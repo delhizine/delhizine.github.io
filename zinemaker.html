@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zinemaker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.webp">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Consolas', Courier, monospace;
+        }
+
+        body {
+            background: #eee;
+            padding: 50px;
+        }
+
+        canvas {
+            background: white;
+            width: min(500px, 100%);
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>DZ Zineinator v.0.0</h1>
+    <a href="index.html">Go Home</a>
+    <br>
+    <br>
+
+    <ol>
+        <li>Draw your zine. One page will be something around 7.4 cm wide and 10.5 cm tall. You can make the pages in
+            any size though, just make sure the page height is roughly 1.414 times the width.</li>
+        <li>Order the contents, all 6 pages of it. Click on "Choose Files" and select them in order (this is important).
+            Then select the back cover and then the front cover.</li>
+        <li>Select the DPI, or ignore, go right ahead and Generate the Zine and hit download.</li>
+        <li>Tada!</li>
+        <li>Didn't work on first try? It will eventually, feel free to mail us about bugs et al.</li>
+    </ol>
+
+    <br>
+
+    <input type="file" id="fileInput" accept="image/jpeg" multiple>
+    <br><br>
+
+    <label for="dpiSelect">Select DPI:</label>
+    <select id="dpiSelect">
+        <option value="72">72 DPI (Low)</option>
+        <option value="150">150 DPI (Medium)</option>
+        <option value="300" selected>300 DPI (High)</option>
+    </select>
+    <button id="generateZine">Generate Zine</button>
+    <br>
+    <br>
+    <a id="downloadLink" style="display: none;">Download Zine</a>
+    <br><br>
+    <canvas id="zineCanvas" width="500" height="705" style="border: 1px solid black;"></canvas>
+    <br>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="scripts/zinemaker.js"></script>
+</body>
+
+</html>
