@@ -1,0 +1,45 @@
+{
+    "zinelist": [
+      {"name":"The, Weakly", "url":"assets/zines/theweakly", "content" : "Whoever you are, no matter how lonely, the world offers itself to your imagination. <i>(Wild Geese / Mary Oliver)</i>", "pagename":"theweakly", "files":[
+        {"name":"Issue No. 16", "filename":"issue16"},
+        {"name":"Issue No. 15", "filename":"issue15"},
+        {"name":"Issue No. 14", "filename":"issue14"},
+        {"name":"Issue No. 13", "filename":"issue13"},
+        {"name":"Issue No. 12", "filename":"issue12"},
+        {"name":"Issue No. 11", "filename":"issue11"},
+        {"name":"Issue No. 10", "filename":"issue10"},
+        {"name":"Issue No. 09", "filename":"issue9"},
+        {"name":"Monthly Special Issue No. 03", "filename":"spissue3"},
+        {"name":"Issue No. 08", "filename":"issue8"},
+        {"name":"Issue No. 07", "filename":"issue7"},
+        {"name":"MONTHLY SPECIAL ISSUE 02", "filename":"spissue2"},
+        {"name":"Issue No. 06", "filename":"issue6"},
+        {"name":"Issue No. 05", "filename":"issue5"},
+        {"name":"Issue No. 04", "filename":"issue4"},
+        {"name":"Issue No. 03", "filename":"issue3"},
+        {"name":"MONTHLY SPECIAL ISSUE 01", "filename":"spissue1"},
+        {"name":"Issue No. 02", "filename":"issue2"},
+        {"name":"Issue No. 01", "filename":"issue1"}
+      ]},
+      {"name":"Kabootar Dispatch", "url":"assets/zines/kabootar", "content" : "<img src='assets/images/site/calvinethobbes.webp'>", "pagename":"kabootar", "files":[
+        {"name":"Issue #5 : A Vegetable Capacity", "filename":"issue5"},
+        {"name":"Issue #4 : Hope for Breakfast", "filename":"issue4"},
+        {"name":"Issue #3 : Dick Feynman", "filename":"issue3"},
+        {"name":"Issue #2 : Time (on Running out of)", "filename":"issue2"},
+        {"name":"Issue #1 : Ducks", "filename":"issue1"}
+        ]},
+      {"name":"Complaint Therapy", "url":"assets/zines/complaint", "content" : "Everybody tells you life's a pit. But nobody tells you about the handholds.", "pagename":"complaint", "files":[
+        {"name":"Issue #3", "filename":"issue3"},
+        {"name":"Issue #2", "filename":"issue2"},
+        {"name":"Issue #1", "filename":"issue1"}
+        ]},
+      {"name":"Touch Me Not", "url":"assets/zines/ones", "content" : "<p><i>\"And a rock feels no pain <br> And an island never cries\"</i></p><p>In an exclusive interview with the author, they reported listening to the closing strains of Julian Casablancas in Selfless <i>\"Why'd you let them judge your boooooodyyyyyyy?\"</i>(emphasis as sung by author) while writing the zine.</p><p>On pressing further for their inspirations vis-a-vis a context to place the zine in, they requested me to hyperlink the following song.</p><p><a href=\"https://www.youtube.com/watch?v=okthJIVbi6g\" target=\"_blank\">El Scorcho - Weezer</a></p>", "pagename":"touchmenot", "files":[{"name":"Touch Me Not", "filename":"touchmenot"}]},
+      {"name":"পুপু পিপি", "url":"assets/zines/pupupipi", "content" : "এক আঁকি, আরেক লিখি। পুপু — পিপি —", "pagename":"pupupipi", "files":[{"name":"Issue 1", "filename":"issue1"}]},
+      {"name":"Letters to my friends", "url":"assets/zines/ones/", "content" : "Everything we learnt in school was useless. At least for me. I've learnt more from my mistakes than the formulas and formats. So I think making a zine based on letter writing was my way of finding a source to put this knowledge of class 10th English writing comprehension formats to use. But then again, I used none of that in the zine. So to answer the real question, why does this zine exist-  Why? Because I was bored and I could.", "pagename":"tofriends", "files":[{"name":"Letters to my friends", "filename":"tofriends"}]},
+      {"name":"Horzine Around", "url":"assets/zines/horzine", "content" : "<p>\"Can you give me a quote to go with your zine?\" <br> <br>\"<u><i>CANNOT</i></u> pick because there's these two that always go hand in hand like I think of one and the other one pops up immediately —<br><ol style=\"margin-left: 40px;\"><li>'Yet because I knew nothing, nothing was beneath me.' <br>Pg 74 of Circe life-changing so simple like FUCK why did I not know this already — What an icon Madeline Miller.</li> <br><li>This one quote I read in a Joachim Trier interview where he is wuoting Kierkegaard and adding his own thing to it : <br>'We can only understand our life backward, but we’re forced to live it forward. And I think that’s the confusion we all feel, is that we always learn too late. We go through things that are completely inexplicable and mysterious. And then years later, we realize.'</li></ol> <br> Use either or both. I think both is nicer.\"</p>", "pagename":"horzine", "files":[{"name":"Issue 1", "filename":"issue1"}]},
+      {"name":"U WILL BE OK ZINE", "url":"assets/zines/uwillbeok", "content" : "<p>\"do u want like an exact quote <br>ok i dont have quotes so i’m gonna give u lyrics\"<br><br>\"yes giv\"<br><br>\"these are the two songs that my subconscious decided to start playing when i sat in the car to give my drivers license test<ol style=\"margin-left: 40px;\"><li>do you hear me? do you feel me? we gon' be alright- <a href=\"https://www.youtube.com/watch?v=67vr-3kpX3Q\">alright, kendrick lamar</a></li><li>done stop believin', hold on to that feelin'- <a href=\"https://www.youtube.com/watch?v=1k8craCGpgs\">don’t stop believing, journey</a></li></ol><br>and i think this is the most me thing i can give because whenever anything goes wrong in my life <br><br>it’s these two songs\"", "pagename":"uwillbeok", "files":[{"name":"Issue 1", "filename":"issue1"}]},
+      {"name":"The Case For Record Keeping (Or, The Physical Media Manifesto)", "url":"assets/zines/ones", "content" : "The world is full of paper. Write to me. <i>(Agha Shahid Ali)</i>", "pagename":"recordkeeping", "files":[{"name":"The Case for Record Keeping", "filename":"recordkeeping"}]},
+      {"name":"Pujo Zine", "url":"assets/zines/ones", "content" : "The day my people come together.", "pagename":"pujozine", "files":[{"name":"Pujo Zine", "filename":"pujozine"}]},
+      {"name":"Apple Slices", "url":"assets/zines/appleslices", "content" : "Sliced, served and self-centered", "pagename":"appleslices", "files":[{"name":"Volume 1", "filename":"vol1"}]}
+    ]
+  }

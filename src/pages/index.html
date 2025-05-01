@@ -1,6 +1,7 @@
 {% extends "base.njk" %}
 
 {% block content %}
+
 <p class="emphasis">Hi.</p>
 <p>You might have stumbled onto us
     on <a href="https://www.instagram.com/delhizine/">@delhizine</a> or on any one of our displays
@@ -9,73 +10,14 @@
     click <a href="catalogue.html">here</a>.
 </p>
 
-
 <div class="marquee-container">
-    <div class="marquee-content"> <a href="horzine.html" class="marquee-item">
-            <img src="assets/images/zine_thumb/horzine.webp" alt="">
-            <p>HORZINE AROUND <br>
-                Our Newest and NEIGH-est zine is OUT!
-            </p>
+    <div class="marquee-content"> 
+        {% for item in marquee %}
+        <a href="{{item.url}}" class="marquee-item">
+            <img src="{{item.img}}" alt="{{item.alt}}">
+            <p>{{ item.text | safe}}</p>
         </a>
-        <a href="uwillbeok.html" class="marquee-item">
-            <img src="assets/images/zine_thumb/uwillbeok.webp" alt="">
-            <p>U WILL BE OK (ZINE OUT!!) [U WILL THO]</p>
-        </a>
-        <a href="calendar.html" class="marquee-item">
-            <img src="assets\images\calendar\rue.webp" alt="">
-            <p>A Calendar called 'Hope' — The reviews are in!!</p>
-        </a>
-        <a href="assets/ones/tofriends.pdf" target="_blank" class="marquee-item">
-            <img src="assets/images/zine_thumb/tofriends.webp" alt="">
-            <p>Letters to my Friends &mdash; a debut zine by the enigmatic prachi (?)</p>
-        </a>
-        <div class="marquee-item">
-            <img src="assets/images/site/midsem.webp" alt="">
-            <p>The DZ team wishes you a un-worrisome and warm MIDSEM BREAK :)</p>
-        </div>
-        <div class="marquee-item">
-            <img src="assets/images/site/booknbake.webp" alt="">
-            <p>200+ zines sold at CR park book sale! Many, many thanks to Book&Bake team</p>
-        </div>
-        <a href="kabootardispatch.html" class="marquee-item">
-            <img src="assets/zines/kabootar/issue5.webp" alt="">
-            <p>KD #5: A Vegetable Capacity out.</p>
-        </a>
-        <a href="theweakly.html" class="marquee-item">
-            <img src="assets/zines/theweakly/issue13.webp" alt="">
-            <p>TW #13 out!!! everyone scream</p>
-        </a>
-        <a href="https://www.poetryfoundation.org/poems/48859/song-of-the-open-road" target="_blank"
-            class="marquee-item">
-            <p style="font-size: 14px;">The earth, that is sufficient,
-                I do not want the constellations any nearer,
-                I know they are very well where they are,
-                I know they suffice for those who belong to them.
-                <br>
-                <i>(Song of the Open Road / Walt Whitman)</i>
-            </p>
-        </a> <a href="horzine.html" class="marquee-item">
-            <img src="assets/images/zine_thumb/horzine.webp" alt="">
-            <p>HORZINE AROUND <br>
-                Our Newest and NEIGH-est zine is OUT!
-            </p>
-        </a>
-        <a href="uwillbeok.html" class="marquee-item">
-            <img src="assets/images/zine_thumb/uwillbeok.webp" alt="">
-            <p>U WILL BE OK (ZINE OUT!!) [U WILL THO]</p>
-        </a>
-        <a href="calendar.html" class="marquee-item">
-            <img src="assets\images\calendar\rue.webp" alt="">
-            <p>A Calendar called 'Hope' — The reviews are in!!</p>
-        </a>
-        <a href="assets/ones/tofriends.pdf" target="_blank" class="marquee-item">
-            <img src="assets/images/zine_thumb/tofriends.webp" alt="">
-            <p>Letters to my Friends &mdash; a debut zine by the enigmatic prachi (?)</p>
-        </a>
-        <div class="marquee-item">
-            <img src="assets/images/site/midsem.webp" alt="">
-            <p>The DZ team wishes you a un-worrisome and warm MIDSEM BREAK :)</p>
-        </div>
+        {% endfor %}
     </div>
 </div>
 
@@ -97,7 +39,5 @@
     fret if
     the links don't work - just check back in a while :)</p>
 <p class="emphasis">How do we get involved?</p>
-<p>If you would like our patronage, mail us. If you find a cool leaf, mail us. If you would like to tell
-    a
-    secret, mail us. We are listening at delhizine at the rate gmail dot com.</p>
+<p>If you would like our patronage, mail us. If you find a cool leaf, mail us. If you would like to tell a secret, mail us. We are listening at delhizine at the rate gmail dot com.</p>
 {% endblock %}

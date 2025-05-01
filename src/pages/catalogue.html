@@ -1,0 +1,16 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<h2>The DZ Catalogue !!!</h2>
+<p>Delhizine hosts zines from artists and writers from the city and beyond. We distribute them on our
+    own on college campuses and events. Find the printable copies of all our zines below ↓. If you want
+    us to host your zine, mail us !</p>
+<div class="catalogue">
+    {% for zine in zinelist %}
+    <a href="{{zine.pagename}}.html" class="cat-item">
+        <img src="assets/images/zine_thumb/{{zine.pagename}}.webp" alt="The, Weakly Cover Page" class="cat-img">
+        <div class="cat-title">{{zine.name}}</div>
+    </a>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,29 @@
+{
+    "navigation": [
+        {"name": "HOME", "url": "./index.html", "img": "assets/images/site/home.webp", "alt":"home icon"},
+        {"name": "GET STARTED", "url": "./getstarted.html", "img": "assets/images/site/getstarted.webp", "alt":"getstarted icon"},
+        {"name": "THE ZINES", "url": "./catalogue.html", "img": "assets/images/site/zines.webp", "alt":"catalogue icon"},
+        {"name": "CALENDAR", "url": "./calendar.html", "img": "assets/images/site/cal.webp", "alt":"calendar icon"},
+        {"name": "CONTACT", "url": "./contact.html", "img": "assets/images/site/contact.webp", "alt":"contact icon"}
+    ],
+    "marquee": [
+        {"url":"https://www.poetryfoundation.org/poems/48859/song-of-the-open-road", "text":"<span style='font-size: 12px;'>The earth, that is sufficient, I do not want the constellations any nearer, I know they are very well where they are, I know they suffice for those who belong to them. <br> <i>(Song of the Open Road / Walt Whitman)</i></span>"},
+        {"url":"catalogue.html", "img":"assets/images/zine_thumb/pujozine.webp", "text":"PUJO ZINE - our first colour zine just out!", "alt":"pujozine cover"},
+        {"url":"horzine.html", "img":"assets/images/zine_thumb/horzine.webp", "text":"HORZINE AROUND <br>Our Newest and NEIGH-est zine is OUT!", "alt":"horzine cover"},
+        {"url":"uwillbeok.html", "img":"assets/images/zine_thumb/uwillbeok.webp", "text":"U WILL BE OK (ZINE OUT!!) [U WILL THO]", "alt":"uwillbeok cover"},
+        {"url":"calendar.html", "img":"assets/images/calendar/rue.webp", "text":"A Calendar called 'Hope' — The reviews are in!!", "alt":"rue's calendar review"},
+        {"url":"catalogue.html", "img":"assets/images/zine_thumb/tofriends.webp", "text":"Letters to my Friends &mdash; a debut zine by the enigmatic prachi (?)", "alt":"letterstofriends cover"},
+        {"url":"#", "img":"assets/images/site/midsem.webp", "text":"The DZ team hopes you have a BANGER end-sem EXAMS :)", "alt":"hope image"}
+    ], "team":[
+        {"name":"Borishan", "img":"assets/images/team/borishan.webp", "quote":"In place of the foolish ignorabimus let stand our slogan <i>We must know, We will know.</i>", "byline":"Borishan is a pigeon and a founding member of this collective."},
+        {"name":"Rinchan", "img":"assets/images/team/rinchan.webp", "quote":"I may not have gone where I intended to go, but I think I have ended up where I needed to be.", "byline":"Rinchan is a founding member of this collective and a weezer fan, unfortuantely."},
+        {"name":"Jo", "img":"assets/images/team/jo.webp", "quote":"what novelty is worth the sweet monotony where everything is known and loved because it is known?", "byline":"Jo is a concept and also a collaborator at DelhiZINE."},
+        {"name":"Verité", "img":"assets/images/team/verite.webp", "quote":"Be curious, not judgemental.", "byline":"Verité is a stenographer's nightmare and a contributor at DelhiZINE."},
+        {"name":"Sanjana", "img":"assets/images/team/sanjana.webp", "quote":"The way I see it, every life is a pile of good things and bad things. The good things don't always soften the bad things, but vice-versa, the bad things don't necessarily spoil the good things or make them unimportant.", "byline":"Sanjana is an avid scarf collector and a contributor at DelhiZINE."},
+        {"name":"Gumnaam", "img":"assets/images/team/gumnaam.webp", "quote":"There is no greater agony than bearing an untold story inside you.", "byline":"Gumnaam is a travel services agency and a contributor at DelhiZINE."},
+        {"name":"Ishita", "img":"assets/images/team/ishita.webp", "quote":"life is to gladly become a piece of coal for someone other than myself.", "byline":"Ishita is a dilly dallyer and a contributor at DelhiZINE."},
+        {"name":"Pupu", "img":"assets/images/team/pupu.webp", "quote":"I look into the smoggy sunset, and I believe.", "byline":"Pupu is an idk man and a contributor at DelhiZINE."},
+        {"name":"Ishanya", "img":"assets/images/team/ishanya.webp", "quote":"how strange it is to be anything at all.", "byline":"Ishanya is a biter of fiona apples and a contributor at DelhiZINE."},
+        {"name":"Tuli", "img":"assets/images/team/tuli.webp", "quote":"A little bit of compassion and forgiveness can go a long way.", "byline":"Tuli is a bengali paintbrush and a contributor at DelhiZINE."}
+    ]
+}

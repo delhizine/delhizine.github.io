@@ -1,0 +1,16 @@
+{% extends "../templates/base.njk" %}
+
+{% block content %}
+  <article>
+    <h2>{{ item.name }}</h2>
+    <div>{{ item.content | safe }}</div>
+    <div class="catalogue">
+        {% for file in item.files %}
+        <a href="{{item.url}}/{{file.filename}}.pdf" target="_blank" class="cat-item">
+            <img src="{{item.url}}/{{file.filename}}.webp" alt="{{file.name}} Cover Page" class="cat-img">
+            <div class="cat-title">{{file.name}}</div>
+        </a>
+        {% endfor %}
+    </div>
+  </article>
+{% endblock %}
