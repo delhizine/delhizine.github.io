@@ -4,6 +4,8 @@
   "description": "delhizine main site",
   "main": "index.js",
   "scripts": {
+    "start": "gulp",
+    "build": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
