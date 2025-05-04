@@ -1,6 +1,11 @@
 {% extends "../templates/base.njk" %}
 
 {% block title %}{{ item.name }}{% endblock %}
+{% block meta_title %}{{ item.name }} | Delhizine{% endblock %}
+{% block canonical_url %}https://delhizine.in/{{ item.pagename }}.html{% endblock %}
+{% block meta_url %}https://delhizine.in/{{ item.pagename }}.html{% endblock %}
+{% block meta_image %}{{item.url}}/{{file.filename}}.webp{% endblock %}
+{% block meta_description %}Delhizine hosts zines from artists and writers from the city and beyond. Here is the zine page for {{ item.name }}{% endblock %}
 
 {% block content %}
   <article>
