@@ -1,5 +1,7 @@
 {% extends "../templates/base.njk" %}
 
+{% block title %}{{ item.name }}{% endblock %}
+
 {% block content %}
   <article>
     <h2>{{ item.name }}</h2>
