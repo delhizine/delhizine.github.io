@@ -18,11 +18,13 @@
 
 <div class="marquee-container">
     <div class="marquee-content"> 
+        {% for i in range(5) %}
         {% for item in marquee %}
         <a href="{{item.url}}" class="marquee-item">
             <img src="{{item.img}}" alt="{{item.alt}}">
             <p>{{ item.text | safe}}</p>
         </a>
+        {% endfor %}
         {% endfor %}
     </div>
 </div>

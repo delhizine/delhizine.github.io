@@ -21,7 +21,7 @@
         {"name":"Issue No. 02", "filename":"issue2"},
         {"name":"Issue No. 01", "filename":"issue1"}
       ]},
-      {"name":"Kabootar Dispatch", "url":"assets/zines/kabootar", "content" : "<img src='assets/images/site/calvinethobbes.webp'>", "pagename":"kabootar", "files":[
+      {"name":"Kabootar Dispatch", "url":"assets/zines/kabootar", "content" : "<img src='assets/images/site/calvinethobbes.webp' style = 'width:100%'>", "pagename":"kabootar", "files":[
         {"name":"Issue #5 : A Vegetable Capacity", "filename":"issue5"},
         {"name":"Issue #4 : Hope for Breakfast", "filename":"issue4"},
         {"name":"Issue #3 : Dick Feynman", "filename":"issue3"},
