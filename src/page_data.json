@@ -8,11 +8,11 @@
     ],
     "marquee": [
         {"url":"https://www.poetryfoundation.org/poems/48859/song-of-the-open-road", "text":"<span style='font-size: 12px;'>The earth, that is sufficient, I do not want the constellations any nearer, I know they are very well where they are, I know they suffice for those who belong to them. <br> <i>(Song of the Open Road / Walt Whitman)</i></span>"},
+        {"url":"notanearth.html", "img":"assets/images/zine_thumb/notanearth.webp", "text":"Announcing the I AM NOT AN EARTH ZINE. Our first comic!!", "alt":"I am not an earth cover"},
         {"url":"uwillbeok.html", "img":"assets/zines/uwillbeok/issue2.webp", "text":"U WILL BE OK ISSUE 2 OUT !!", "alt":"u will be ok zine 2 cover"},
         {"url":"catalogue.html", "img":"assets/images/zine_thumb/pujozine.webp", "text":"PUJO ZINE - our first colour zine just out!", "alt":"pujozine cover"},
         {"url":"horzine.html", "img":"assets/images/zine_thumb/horzine.webp", "text":"HORZINE AROUND <br>Our Newest and NEIGH-est zine is OUT!", "alt":"horzine cover"},
         {"url":"calendar.html", "img":"assets/images/calendar/rue.webp", "text":"A Calendar called 'Hope' — The reviews are in!!", "alt":"rue's calendar review"},
-        {"url":"catalogue.html", "img":"assets/images/zine_thumb/tofriends.webp", "text":"Letters to my Friends &mdash; a debut zine by the enigmatic prachi (?)", "alt":"letterstofriends cover"},
         {"url":"#", "img":"assets/images/site/midsem.webp", "text":"The DZ team hopes you have a BANGER end-sem EXAMS :)", "alt":"hope image"}
     ], "team":[
         {"name":"Borishan", "img":"assets/images/team/borishan.webp", "quote":"In place of the foolish ignorabimus let stand our slogan <i>We must know, We will know.</i>", "byline":"Borishan is a pigeon and a founding member of this collective."},
