@@ -47,6 +47,9 @@
       {"name":"I am not an earth", "url":"assets/zines/notanearth", "content" : "<b>I am not an earth</b> nor an adjunct of an earth,<br>I am the mate and companion of people, all just as immortal and fathomless as myself,<br>(They do not know how immortal, but I know.)<br>I see through the broadcloth and gingham whether or no,<br>And am around, tenacious, acquisitive, tireless, and cannot be shaken away.<br><i>(7, Song of Myself / Walt Whitman)</i><br><br><br>Though I than He - may longer live<br>He longer must - than I -<br>For I have but the power to kill,<br>Without - the power to die -<br><i>(My Life had stood - a Loaded Gun / Emily Dickinson)</i>", "pagename":"notanearth", "files":[
         {"name":"Issue #1 : Baloonman", "filename":"issue1"},
         {"name":"Issue #2 : Rey Mysterio", "filename":"issue2"}
+        ]},
+      {"name":"Please Donot Take Pictures of the Artwork", "url":"assets/zines/please-donot-take-pictures", "content" : "'PLEASE DONOT TAKE PICTURES OF THE ARTWORK' is an art zine, that covers exhibits, pop-ups, artwork open to the public in Delhi. This zine preserves all of the above on paper and printer ink without a gilded frame, air-conditioning, squeaky floors, etc.", "pagename":"please-donot-take-pictures", "files":[
+        {"name":"Issue #1 : Jogen Choudhury", "filename":"issue1"}
         ]}
     ]
   }
