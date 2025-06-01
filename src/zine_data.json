@@ -54,6 +54,9 @@
         ]},
       {"name":"Please Donot Take Pictures of the Artwork", "url":"assets/zines/please-donot-take-pictures", "content" : "'PLEASE DONOT TAKE PICTURES OF THE ARTWORK' is an art zine, that covers exhibits, pop-ups, artwork open to the public in Delhi. This zine preserves all of the above on paper and printer ink without a gilded frame, air-conditioning, squeaky floors, etc.", "pagename":"please-donot-take-pictures", "files":[
         {"name":"Issue #1 : Jogen Choudhury", "filename":"issue1"}
+        ]},
+      {"name":"Thought Daughter", "url":"assets/zines/ones/", "content" : "I have always been a thought daughter, born with a question mark on my head. A hungry kink for analyzing and dissecting everything from the bottle in the side pocket of a stranger’s backpack on the train to every real and hypothetical past, present, and future situation. This is primarily a love letter to fellow thought daughters out there.", "pagename":"thought-daughter", "files":[
+        {"name":"Thought Daughter", "filename":"thought-daughter"}
         ]}
     ]
   }
