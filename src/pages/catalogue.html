@@ -8,10 +8,15 @@
 {% block meta_description %}Delhizine hosts zines from artists and writers from the city and beyond. We distribute them on our own on college campuses and events. Find the printable copies of all our zines below ↓. If you want us to host your zine, mail us !{% endblock %}
 
 {% block content %}
-<h2>The DZ Catalogue !!!</h2>
-<p>Delhizine hosts zines from artists and writers from the city and beyond. We distribute them on our
-    own on college campuses and events. Find the printable copies of all our zines below ↓. If you want
-    us to host your zine, mail us !</p>
+
+{% set totalzines = 0 %}
+{% for item in zinelist %}
+{% set totalzines = totalzines + (item.files | length) %}
+{% endfor %}
+
+<h2>The DZ Catalogue has {{ totalzines }} zines(as of yet) !!!</h2>
+<p>Delhizine hosts zines from artists and writers from the city and beyond. We distribute them on our own on college campuses and events. Find the printable copies of all our zines below ↓. If you want us to host your zine, mail us !</p>
+
 <div class="catalogue">
     {% for zine in zinelist %}
     <a href="{{zine.pagename}}.html" class="cat-item">
