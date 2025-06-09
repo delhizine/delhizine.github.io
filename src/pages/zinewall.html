@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zinewall</title>
+    <style>
+        body {
+            margin: 0;
+            background: #111;
+            color: white;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .zine-grid {
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        .zine-card {
+            width: 15vmin;
+            list-style: none;
+            height: fit-content;
+        }
+
+        .zine-card a {
+            position: relative;
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+
+        .zine-card span {
+            position: absolute;
+            color: black;
+            font-style: italic;
+            background: #fff;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            padding: 10px;
+            display: none;
+        }
+
+        .zine-card a:hover span {
+            display: block;
+        }
+
+        .zine-card img {
+            width: 100%;
+        }
+
+        .intro {
+            text-transform: uppercase;
+            font-style: italic;
+            font-size: 32px;
+            padding: 0 10px;
+        }
+
+        .intro a {
+            color: white;
+            text-decoration: none;
+            border-bottom: 4px double white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul id="zine-list" style="display:none">
+        {% for item in zinelist %}
+        {% for file in item.files %}
+        <li class="zine-card">
+            <a href="{{ item.url }}/{{ file.filename }}.pdf" target="_blank"><span>{{ item.name }} / {{ file.name
+                    }}</span><img src="{{ item.url }}/{{ file.filename }}.webp" alt="{{ item.name }} {{ file.name }}"
+                    class="thumbnail" /></a>
+        </li>
+        {% endfor %}
+        {% endfor %}
+    </ul>
+
+    <p class="intro">This is the Delhi Zine Wall. Clink Zine to Download. <a href="/">Click here to Return</a></p>
+
+    <div id="zine-grid" class="zine-grid"></div>
+
+    <script>
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        const list = Array.from(document.querySelectorAll('#zine-list li'));
+        shuffle(list);
+
+        const container = document.getElementById('zine-grid');
+        list.forEach(li => container.appendChild(li.cloneNode(true)));
+    </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zinewall</title>
+    <style>
+        body {
+            margin: 0;
+            background: #111;
+            color: white;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .zine-grid {
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        .zine-card {
+            width: 15vmin;
+            list-style: none;
+            height: fit-content;
+        }
+
+        .zine-card a {
+            position: relative;
+            display: block;
+            height: 100%;
+            width: 100%;
+        }
+
+        .zine-card span {
+            position: absolute;
+            color: black;
+            font-style: italic;
+            background: #fff;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            padding: 10px;
+            display: none;
+        }
+
+        .zine-card a:hover span {
+            display: block;
+        }
+
+        .zine-card img {
+            width: 100%;
+        }
+
+        .intro {
+            text-transform: uppercase;
+            font-style: italic;
+            font-size: 32px;
+            padding: 0 10px;
+        }
+
+        .intro a {
+            color: white;
+            text-decoration: none;
+            border-bottom: 4px double white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul id="zine-list" style="display:none">
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue16.pdf" target="_blank"><span>The, Weakly / Issue No. 16</span><img src="assets/zines/theweakly/issue16.webp" alt="The, Weakly Issue No. 16"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue15.pdf" target="_blank"><span>The, Weakly / Issue No. 15</span><img src="assets/zines/theweakly/issue15.webp" alt="The, Weakly Issue No. 15"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue14.pdf" target="_blank"><span>The, Weakly / Issue No. 14</span><img src="assets/zines/theweakly/issue14.webp" alt="The, Weakly Issue No. 14"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue13.pdf" target="_blank"><span>The, Weakly / Issue No. 13</span><img src="assets/zines/theweakly/issue13.webp" alt="The, Weakly Issue No. 13"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue12.pdf" target="_blank"><span>The, Weakly / Issue No. 12</span><img src="assets/zines/theweakly/issue12.webp" alt="The, Weakly Issue No. 12"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue11.pdf" target="_blank"><span>The, Weakly / Issue No. 11</span><img src="assets/zines/theweakly/issue11.webp" alt="The, Weakly Issue No. 11"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue10.pdf" target="_blank"><span>The, Weakly / Issue No. 10</span><img src="assets/zines/theweakly/issue10.webp" alt="The, Weakly Issue No. 10"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue9.pdf" target="_blank"><span>The, Weakly / Issue No. 09</span><img src="assets/zines/theweakly/issue9.webp" alt="The, Weakly Issue No. 09"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/spissue3.pdf" target="_blank"><span>The, Weakly / Monthly Special Issue No. 03</span><img src="assets/zines/theweakly/spissue3.webp" alt="The, Weakly Monthly Special Issue No. 03"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue8.pdf" target="_blank"><span>The, Weakly / Issue No. 08</span><img src="assets/zines/theweakly/issue8.webp" alt="The, Weakly Issue No. 08"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue7.pdf" target="_blank"><span>The, Weakly / Issue No. 07</span><img src="assets/zines/theweakly/issue7.webp" alt="The, Weakly Issue No. 07"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/spissue2.pdf" target="_blank"><span>The, Weakly / MONTHLY SPECIAL ISSUE 02</span><img src="assets/zines/theweakly/spissue2.webp" alt="The, Weakly MONTHLY SPECIAL ISSUE 02"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue6.pdf" target="_blank"><span>The, Weakly / Issue No. 06</span><img src="assets/zines/theweakly/issue6.webp" alt="The, Weakly Issue No. 06"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue5.pdf" target="_blank"><span>The, Weakly / Issue No. 05</span><img src="assets/zines/theweakly/issue5.webp" alt="The, Weakly Issue No. 05"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue4.pdf" target="_blank"><span>The, Weakly / Issue No. 04</span><img src="assets/zines/theweakly/issue4.webp" alt="The, Weakly Issue No. 04"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue3.pdf" target="_blank"><span>The, Weakly / Issue No. 03</span><img src="assets/zines/theweakly/issue3.webp" alt="The, Weakly Issue No. 03"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/spissue1.pdf" target="_blank"><span>The, Weakly / MONTHLY SPECIAL ISSUE 01</span><img src="assets/zines/theweakly/spissue1.webp" alt="The, Weakly MONTHLY SPECIAL ISSUE 01"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue2.pdf" target="_blank"><span>The, Weakly / Issue No. 02</span><img src="assets/zines/theweakly/issue2.webp" alt="The, Weakly Issue No. 02"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/theweakly/issue1.pdf" target="_blank"><span>The, Weakly / Issue No. 01</span><img src="assets/zines/theweakly/issue1.webp" alt="The, Weakly Issue No. 01"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/kabootar/issue5.pdf" target="_blank"><span>Kabootar Dispatch / Issue #5 : A Vegetable Capacity</span><img src="assets/zines/kabootar/issue5.webp" alt="Kabootar Dispatch Issue #5 : A Vegetable Capacity"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/kabootar/issue4.pdf" target="_blank"><span>Kabootar Dispatch / Issue #4 : Hope for Breakfast</span><img src="assets/zines/kabootar/issue4.webp" alt="Kabootar Dispatch Issue #4 : Hope for Breakfast"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/kabootar/issue3.pdf" target="_blank"><span>Kabootar Dispatch / Issue #3 : Dick Feynman</span><img src="assets/zines/kabootar/issue3.webp" alt="Kabootar Dispatch Issue #3 : Dick Feynman"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/kabootar/issue2.pdf" target="_blank"><span>Kabootar Dispatch / Issue #2 : Time (on Running out of)</span><img src="assets/zines/kabootar/issue2.webp" alt="Kabootar Dispatch Issue #2 : Time (on Running out of)"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/kabootar/issue1.pdf" target="_blank"><span>Kabootar Dispatch / Issue #1 : Ducks</span><img src="assets/zines/kabootar/issue1.webp" alt="Kabootar Dispatch Issue #1 : Ducks"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/complaint/issue4.pdf" target="_blank"><span>Complaint Therapy / Issue #4</span><img src="assets/zines/complaint/issue4.webp" alt="Complaint Therapy Issue #4"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/complaint/issue3.pdf" target="_blank"><span>Complaint Therapy / Issue #3</span><img src="assets/zines/complaint/issue3.webp" alt="Complaint Therapy Issue #3"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/complaint/issue2.pdf" target="_blank"><span>Complaint Therapy / Issue #2</span><img src="assets/zines/complaint/issue2.webp" alt="Complaint Therapy Issue #2"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/complaint/issue1.pdf" target="_blank"><span>Complaint Therapy / Issue #1</span><img src="assets/zines/complaint/issue1.webp" alt="Complaint Therapy Issue #1"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/ones/touchmenot.pdf" target="_blank"><span>Touch Me Not / Touch Me Not</span><img src="assets/zines/ones/touchmenot.webp" alt="Touch Me Not Touch Me Not"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/pupupipi/issue1.pdf" target="_blank"><span>পুপু পিপি / Issue 1</span><img src="assets/zines/pupupipi/issue1.webp" alt="পুপু পিপি Issue 1"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/ones//tofriends.pdf" target="_blank"><span>Letters to my friends / Letters to my friends</span><img src="assets/zines/ones//tofriends.webp" alt="Letters to my friends Letters to my friends"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/horzine/issue2.pdf" target="_blank"><span>Horzine Around / Issue 2</span><img src="assets/zines/horzine/issue2.webp" alt="Horzine Around Issue 2"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/horzine/issue1.pdf" target="_blank"><span>Horzine Around / Issue 1</span><img src="assets/zines/horzine/issue1.webp" alt="Horzine Around Issue 1"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/uwillbeok/issue1.pdf" target="_blank"><span>U WILL BE OK ZINE / Issue #1</span><img src="assets/zines/uwillbeok/issue1.webp" alt="U WILL BE OK ZINE Issue #1"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/uwillbeok/issue2.pdf" target="_blank"><span>U WILL BE OK ZINE / Issue #2</span><img src="assets/zines/uwillbeok/issue2.webp" alt="U WILL BE OK ZINE Issue #2"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/uwillbeok/issue3.pdf" target="_blank"><span>U WILL BE OK ZINE / Issue #3</span><img src="assets/zines/uwillbeok/issue3.webp" alt="U WILL BE OK ZINE Issue #3"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/ones/recordkeeping.pdf" target="_blank"><span>The Case For Record Keeping / The Case for Record Keeping</span><img src="assets/zines/ones/recordkeeping.webp" alt="The Case For Record Keeping The Case for Record Keeping"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/ones/pujozine.pdf" target="_blank"><span>Pujo Zine / Pujo Zine</span><img src="assets/zines/ones/pujozine.webp" alt="Pujo Zine Pujo Zine"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/appleslices/vol1.pdf" target="_blank"><span>Apple Slices / Volume 1</span><img src="assets/zines/appleslices/vol1.webp" alt="Apple Slices Volume 1"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/notanearth/issue1.pdf" target="_blank"><span>I am not an earth / Issue #1 : Baloonman</span><img src="assets/zines/notanearth/issue1.webp" alt="I am not an earth Issue #1 : Baloonman"
+                    class="thumbnail" /></a>
+        </li>
+        
+        <li class="zine-card">
+            <a href="assets/zines/notanearth/issue2.pdf" target="_blank"><span>I am not an earth / Issue #2 : Rey Mysterio</span><img src="assets/zines/notanearth/issue2.webp" alt="I am not an earth Issue #2 : Rey Mysterio"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/please-donot-take-pictures/issue1.pdf" target="_blank"><span>Please Donot Take Pictures of the Artwork / Issue #1 : Jogen Choudhury</span><img src="assets/zines/please-donot-take-pictures/issue1.webp" alt="Please Donot Take Pictures of the Artwork Issue #1 : Jogen Choudhury"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/ones//thought-daughter.pdf" target="_blank"><span>Thought Daughter / Thought Daughter</span><img src="assets/zines/ones//thought-daughter.webp" alt="Thought Daughter Thought Daughter"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/ones//bleurgh.pdf" target="_blank"><span>bleurgh / bleurgh</span><img src="assets/zines/ones//bleurgh.webp" alt="bleurgh bleurgh"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+        
+        <li class="zine-card">
+            <a href="assets/zines/ones//bindizine.pdf" target="_blank"><span>bindi zine / bindi zine</span><img src="assets/zines/ones//bindizine.webp" alt="bindi zine bindi zine"
+                    class="thumbnail" /></a>
+        </li>
+        
+        
+    </ul>
+
+    <p class="intro">This is the Delhi Zine Wall. Clink Zine to Download. <a href="/">Click here to Return</a></p>
+
+    <div id="zine-grid" class="zine-grid"></div>
+
+    <script>
+        function shuffle(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+        }
+
+        const list = Array.from(document.querySelectorAll('#zine-list li'));
+        shuffle(list);
+
+        const container = document.getElementById('zine-grid');
+        list.forEach(li => container.appendChild(li.cloneNode(true)));
+    </script>
+
+
+
+</body>
+
+</html>
