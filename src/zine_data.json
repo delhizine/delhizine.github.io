@@ -43,7 +43,8 @@
         ]},
       {"name":"U WILL BE OK ZINE", "url":"assets/zines/uwillbeok", "content" : "<p>\"do u want like an exact quote <br>ok i dont have quotes so i’m gonna give u lyrics\"<br><br>\"yes giv\"<br><br>\"these are the two songs that my subconscious decided to start playing when i sat in the car to give my drivers license test<ol style=\"margin-left: 40px;\"><li>do you hear me? do you feel me? we gon' be alright- <a href=\"https://www.youtube.com/watch?v=67vr-3kpX3Q\">alright, kendrick lamar</a></li><li>done stop believin', hold on to that feelin'- <a href=\"https://www.youtube.com/watch?v=1k8craCGpgs\">don’t stop believing, journey</a></li></ol><br>and i think this is the most me thing i can give because whenever anything goes wrong in my life <br><br>it’s these two songs\"", "pagename":"uwillbeok", "files":[
         {"name":"Issue #1", "filename":"issue1"},
-        {"name":"Issue #2", "filename":"issue2"}
+        {"name":"Issue #2", "filename":"issue2"},
+        {"name":"Issue #3", "filename":"issue3"}
       ]},
       {"name":"The Case For Record Keeping", "url":"assets/zines/ones", "content" : "The world is full of paper. Write to me. <i>(Agha Shahid Ali)</i>", "pagename":"recordkeeping", "files":[{"name":"The Case for Record Keeping", "filename":"recordkeeping"}]},
       {"name":"Pujo Zine", "url":"assets/zines/ones", "content" : "The day my people come together.", "pagename":"pujozine", "files":[{"name":"Pujo Zine", "filename":"pujozine"}]},
