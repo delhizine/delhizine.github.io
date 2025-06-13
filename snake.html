@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snek</title>
+    <link rel="stylesheet" href="assets\styles\snake.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="scorePanel">SCORE: 0 | HIGH SCORE: 0</div>
+        
+        <div id="canvasWrapper">
+            <canvas id="gameCanvas"></canvas>
+            
+            <div id="gameOver">
+                GAME OVER
+                <div id="finalScore">Score: 0</div>
+                <button id="restartBtn">PLAY AGAIN</button>
+            </div>
+        </div>
+        
+        <div id="controls">
+            <div class="control-btn" id="up-btn">↑</div>
+            <div class="control-btn" id="left-btn">←</div>
+            <div class="control-btn" id="down-btn">↓</div>
+            <div class="control-btn" id="right-btn">→</div>
+        </div>
+    </div>
+
+    <script src="assets\scripts\snake.js"></script>
+</body>
+</html>
