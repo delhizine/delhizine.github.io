@@ -35,14 +35,13 @@ body {
 }
 
 #canvasWrapper {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     background: #000;
     position: relative;
-    height: calc(100vh - 50px - 20vh);
+    margin-block: auto;
 }
 
 #gameCanvas {
