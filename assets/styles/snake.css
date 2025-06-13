@@ -6,12 +6,29 @@
 }
 
 body {
+    color: white;
     background-color: #111;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     font-family: 'Courier New', monospace;
+}
+
+h2 {
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px double white;
+}
+a:hover{
+    background: #333;
 }
 
 #gameContainer {
@@ -21,6 +38,7 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
+    justify-content: center;
 }
 
 #scorePanel {
@@ -41,7 +59,7 @@ body {
     overflow: hidden;
     background: #000;
     position: relative;
-    margin-block: auto;
+    /* margin-block: 30px; */
 }
 
 #gameCanvas {
@@ -55,6 +73,7 @@ body {
 #controls {
     height: 20vh;
     max-height: 20vh;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -152,6 +171,6 @@ body {
     }
 
     #canvasWrapper {
-        height: calc(100vh - 50px);
+        height: calc(100vh - 100px);
     }
 }
